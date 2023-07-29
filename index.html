@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="11" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <img class="sign-in-background" src="./resources/sign-in.png" alt="">
+
+        <div class="container">
+            <form class="sign-in" id="sign-in">
+                <span class="welcome">Welcome back! 👋</span>
+                <span class="title">Sign up to your account</span>
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="name" required="true">
+                <label for="email">Your Email</label>
+                <input type="email" name="email" id="email" required="true">
+                <label for="password1">Password</label>
+                <input type="password" name="Password1" id="password1" required="true">
+                <label for="name">Confirm Password</label>
+                <input type="password" name="password2" id="password2" required="true">
+                <button class="sign-in-btn" id="sign-in-btn">Continue</button>
+                <span class="error" id="error">Error: All fields are mandatory!</span>
+            </form>
+            <p>Don’t have an account? <span>Sign up</span></p>
+
+        </div>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
